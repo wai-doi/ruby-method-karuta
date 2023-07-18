@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ruby-method-karuta/static/css/main.9fc4f287.css",
+    "main.js": "/ruby-method-karuta/static/js/main.998b1d0c.js",
+    "static/js/787.70182dbe.chunk.js": "/ruby-method-karuta/static/js/787.70182dbe.chunk.js",
+    "index.html": "/ruby-method-karuta/index.html",
+    "main.9fc4f287.css.map": "/ruby-method-karuta/static/css/main.9fc4f287.css.map",
+    "main.998b1d0c.js.map": "/ruby-method-karuta/static/js/main.998b1d0c.js.map",
+    "787.70182dbe.chunk.js.map": "/ruby-method-karuta/static/js/787.70182dbe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fc4f287.css",
+    "static/js/main.998b1d0c.js"
+  ]
+}
