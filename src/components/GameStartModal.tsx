@@ -6,7 +6,7 @@ const GameStartModal = (props: {
   setShow: Function;
   gameStart: Function;
 }) => {
-  const [clearNumber, setClearNumber] = useState<10 | 30 | 50>(50);
+  const [clearNumber, setClearNumber] = useState<5 | 10 | 20 | 30 | 50>(50);
 
   const closeModal = () => {
     props.setShow(false);
@@ -41,6 +41,22 @@ const GameStartModal = (props: {
               <div>
                 <input
                   type="radio"
+                  id="clear5"
+                  checked={clearNumber === 5}
+                  onChange={() => setClearNumber(5)}
+                  className="peer/clear5 hidden"
+                />
+
+                <label
+                  htmlFor="clear5"
+                  className="flex h-32 w-32 cursor-pointer items-center justify-center rounded-lg border border-gray-300 text-xl font-bold text-gray-500 hover:bg-gray-100 peer-checked/clear5:border-blue-500 peer-checked/clear5:text-blue-500"
+                >
+                  5/50 枚
+                </label>
+              </div>
+              <div>
+                <input
+                  type="radio"
                   id="clear10"
                   checked={clearNumber === 10}
                   onChange={() => setClearNumber(10)}
@@ -52,6 +68,22 @@ const GameStartModal = (props: {
                   className="flex h-32 w-32 cursor-pointer items-center justify-center rounded-lg border border-gray-300 text-xl font-bold text-gray-500 hover:bg-gray-100 peer-checked/clear10:border-blue-500 peer-checked/clear10:text-blue-500"
                 >
                   10/50 枚
+                </label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="clear20"
+                  checked={clearNumber === 20}
+                  onChange={() => setClearNumber(20)}
+                  className="peer/clear20 hidden"
+                />
+
+                <label
+                  htmlFor="clear20"
+                  className="flex h-32 w-32 cursor-pointer items-center justify-center rounded-lg border border-gray-300 text-xl font-bold text-gray-500 hover:bg-gray-100 peer-checked/clear20:border-blue-500 peer-checked/clear20:text-blue-500"
+                >
+                  20/50 枚
                 </label>
               </div>
               <div>
