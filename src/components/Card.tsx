@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { FaRegCircle, FaXmark } from 'react-icons/fa6';
+import correctSound from '../sounds/correct.mp3';
+import wrongSound from '../sounds/wrong.mp3';
 
 const Card = (props: {
   cardId: String;
@@ -14,6 +16,7 @@ const Card = (props: {
     const clickResult: boolean = props.onClick(props.cardId);
     if (clickResult) {
       setCorrect(true);
+      playSound(correctSound);
       await new Promise<void>((resolve) =>
         setTimeout(() => {
           setCorrect(false);
@@ -24,10 +27,17 @@ const Card = (props: {
       props.getCard(props.cardId);
     } else {
       setWrong(true);
+      playSound(wrongSound);
       setTimeout(() => {
         setWrong(false);
       }, 500);
     }
+  };
+
+  const playSound = (sound: string) => {
+    const audio = new Audio(sound);
+    audio.volume = 0.1;
+    audio.play();
   };
 
   return (
