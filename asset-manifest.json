@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ruby-method-karuta/static/css/main.9fc4f287.css",
-    "main.js": "/ruby-method-karuta/static/js/main.998b1d0c.js",
+    "main.css": "/ruby-method-karuta/static/css/main.aeede194.css",
+    "main.js": "/ruby-method-karuta/static/js/main.e7ad44c3.js",
     "static/js/787.70182dbe.chunk.js": "/ruby-method-karuta/static/js/787.70182dbe.chunk.js",
     "index.html": "/ruby-method-karuta/index.html",
-    "main.9fc4f287.css.map": "/ruby-method-karuta/static/css/main.9fc4f287.css.map",
-    "main.998b1d0c.js.map": "/ruby-method-karuta/static/js/main.998b1d0c.js.map",
+    "main.aeede194.css.map": "/ruby-method-karuta/static/css/main.aeede194.css.map",
+    "main.e7ad44c3.js.map": "/ruby-method-karuta/static/js/main.e7ad44c3.js.map",
     "787.70182dbe.chunk.js.map": "/ruby-method-karuta/static/js/787.70182dbe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fc4f287.css",
-    "static/js/main.998b1d0c.js"
+    "static/css/main.aeede194.css",
+    "static/js/main.e7ad44c3.js"
   ]
 }
