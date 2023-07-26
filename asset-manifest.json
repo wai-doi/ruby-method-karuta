@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/ruby-method-karuta/static/css/main.aeede194.css",
-    "main.js": "/ruby-method-karuta/static/js/main.e7ad44c3.js",
+    "main.js": "/ruby-method-karuta/static/js/main.bc692a43.js",
     "static/js/787.70182dbe.chunk.js": "/ruby-method-karuta/static/js/787.70182dbe.chunk.js",
+    "static/media/correct.mp3": "/ruby-method-karuta/static/media/correct.e7a50a3c71eb5949b184.mp3",
+    "static/media/wrong.mp3": "/ruby-method-karuta/static/media/wrong.fa071fad178bd8e57c14.mp3",
     "index.html": "/ruby-method-karuta/index.html",
     "main.aeede194.css.map": "/ruby-method-karuta/static/css/main.aeede194.css.map",
-    "main.e7ad44c3.js.map": "/ruby-method-karuta/static/js/main.e7ad44c3.js.map",
+    "main.bc692a43.js.map": "/ruby-method-karuta/static/js/main.bc692a43.js.map",
     "787.70182dbe.chunk.js.map": "/ruby-method-karuta/static/js/787.70182dbe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aeede194.css",
-    "static/js/main.e7ad44c3.js"
+    "static/js/main.bc692a43.js"
   ]
 }
